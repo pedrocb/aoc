@@ -89,7 +89,6 @@ func main() {
 		inputList = append(inputList, inputInstruction)
 	}
 
-	// Puzzle 1
 	result2, result1 := CountLitPixels(inputList)
 	fmt.Println(result1)
 
@@ -103,8 +102,4 @@ func main() {
 		}
 		fmt.Print("\n")
 	}
-	//
-	//	// Puzzle 2
-	//	result2 := CountSSLSupportedIps(inputList)
-	//	fmt.Println(result2)
 }
